@@ -23,12 +23,12 @@ public class CustomAllure implements WebDriverListener {
     /**
      * Веб-драйвер для управления браузером и создания скриншотов.
      */
-    private WebDriver driver;
+    private final WebDriver driver;
 
     /**
      * Жизненный цикл Allure для управления вложениями и шагами.
      */
-    private AllureLifecycle lifecycle;
+    private final AllureLifecycle lifecycle;
 
     /**
      * Конструктор класса CustomAllure.
